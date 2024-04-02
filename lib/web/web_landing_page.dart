@@ -33,6 +33,19 @@ class _WebLandingPageState extends State<WebLandingPage> {
           ],
         ),
       ),
+      body: CircleAvatar(
+        radius: 147,
+        backgroundColor: Colors.tealAccent,
+        child: CircleAvatar(
+          radius: 143.0,
+          backgroundColor: Colors.black,
+          child: CircleAvatar(
+            radius: 140.0,
+            backgroundColor: Colors.white,
+            backgroundImage: AssetImage("../../assets/auth.png"),
+          ),
+        ),
+      ),
     );
   }
 }
